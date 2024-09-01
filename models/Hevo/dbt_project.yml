@@ -11,6 +11,6 @@ models:
           - name: most_recent_order
           - name: number_of_orders
           - name: customer_lifetime_value
-    database: PC_HEVODATA_DB
-    schema: PUBLIC
-    materialized: table
+      database: PC_HEVODATA_DB
+      schema: PUBLIC
+      materialized: table
