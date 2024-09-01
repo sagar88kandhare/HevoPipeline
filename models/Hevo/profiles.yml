@@ -1,0 +1,14 @@
+my_snowflake_profile:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "zu86801.ap-south-1.aws.snowflakecomputing.com"
+      user: "sagar88kandhare"
+      password: "Goldmines@9586"
+      role: "accountadmin"
+      warehouse: "pc_hevodata_wh"
+      database: "pc_hevodata_db"
+      schema: "public"
+      threads: 1
+      client_session_keep_alive: False
