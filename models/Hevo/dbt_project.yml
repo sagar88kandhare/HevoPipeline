@@ -1,8 +1,16 @@
-name: 'my_dbt_project'
-version: '1.0'
-config-version: 2
+version: 2
 
 models:
-  my_dbt_project:
-    customer_orders:
-      materialized: table
+    - name: customers
+      description: "A starter dbt model"
+      columns:
+          - name: customer_id
+          - name: first_name
+          - name: last_name
+          - name: first_order
+          - name: most_recent_order
+          - name: number_of_orders
+          - name: customer_lifetime_value
+    database: PC_HEVODATA_DB
+    schema: PUBLIC
+    materialized: table
