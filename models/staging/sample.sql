@@ -1,0 +1,1 @@
+select * from {yesterday(current_date, na)}
