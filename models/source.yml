@@ -1,0 +1,14 @@
+version: 2
+ 
+sources:
+ - name: databricks
+   database: databricks_learning
+   schema: sagar_kandhare
+   tables:
+     - name: routines
+ 
+ - name: databricks
+   database: databricks_learning
+   schema: sagar_kandhare
+   tables:
+     - name: payment
